@@ -1,0 +1,30 @@
+.menu {
+list-style: none;
+width: 200px;
+background-color: rgb(60, 87, 105);
+padding-left: 0px;
+color: white;
+transition: 1s;
+}
+
+.menu__item a {
+background-color: rgb(78, 112, 145);
+display: flex;
+text-decoration: none;
+color: white;
+padding: 20px;
+align-items: center;
+}
+
+.menu__item a:hover {
+background-color: rgb(38, 86, 107);
+display: flex;
+text-decoration: none;
+color: white;
+padding: 20px;
+align-items: center;
+}
+
+.menu__item img {
+width: 50px;
+}
